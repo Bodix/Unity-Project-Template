@@ -10,7 +10,7 @@ namespace AppName.App
         protected override void Awake()
         {
             base.Awake();
-            
+
             Config.ApplyScreenSettings();
         }
     }

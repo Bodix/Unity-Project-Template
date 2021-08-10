@@ -7,7 +7,7 @@ namespace AppName.App.Installers.Main
     {
         [SerializeField]
         private Camera _mainCamera;
-        
+
         public override void InstallBindings()
         {
             Container.BindInstances(

@@ -6,8 +6,8 @@ using Evolutex.Evolunity.Extensions;
 namespace AppName.Core.Extensions
 {
     /// <summary>
-    /// Extensions class just for example.
-    /// <seealso cref="Evolutex.Evolunity.Extensions.EnumerableExtensions"/>
+    ///     Extensions class just for example.
+    ///     <seealso cref="Evolutex.Evolunity.Extensions.EnumerableExtensions" />
     /// </summary>
     public static class EnumerableExtensions
     {

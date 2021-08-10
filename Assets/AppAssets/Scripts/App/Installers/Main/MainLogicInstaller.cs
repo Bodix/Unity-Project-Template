@@ -6,7 +6,6 @@ namespace AppName.App.Installers.Main
     {
         public override void InstallBindings()
         {
-
         }
     }
 }
