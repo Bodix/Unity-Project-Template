@@ -11,7 +11,7 @@ namespace AppName.App
         {
             base.Awake();
             
-            Config.ApplyDisplaySettings();
+            Config.ApplyScreenSettings();
         }
     }
 }

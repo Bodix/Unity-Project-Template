@@ -8,7 +8,7 @@ namespace AppName.App.Data
         public int TargetFrameRate = 120;
         public int SleepTimeout = UnityEngine.SleepTimeout.NeverSleep;
 
-        public void ApplyDisplaySettings()
+        public void ApplyScreenSettings()
         {
             UnityEngine.Application.targetFrameRate = TargetFrameRate;
             Screen.sleepTimeout = SleepTimeout;
