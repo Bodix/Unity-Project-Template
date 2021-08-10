@@ -18,7 +18,11 @@
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Installers/MainSceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Data/Base.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Data/AppConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/ProjectInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Application.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Data/AppConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/MainSceneInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Modules/Main/MainScene.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wY5CZW7uAP9ueqWqCBppcBIbDh" />
@@ -65,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628622554447</updated>
       <workItem from="1628622557109" duration="462000" />
-      <workItem from="1628623038798" duration="349000" />
+      <workItem from="1628623038798" duration="1680000" />
     </task>
     <servers />
   </component>
