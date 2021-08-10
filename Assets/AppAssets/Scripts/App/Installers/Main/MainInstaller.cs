@@ -3,7 +3,7 @@ using Zenject;
 
 namespace AppName.App.Installers.Main
 {
-    public class MainSceneInstaller : MonoInstaller
+    public class MainInstaller : MonoInstaller
     {
         [SerializeField]
         private Camera _mainCamera;

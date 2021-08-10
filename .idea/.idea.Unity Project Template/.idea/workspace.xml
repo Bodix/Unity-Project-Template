@@ -20,9 +20,15 @@
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Data/AppConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/ProjectInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Application.cs" />
-      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Data/AppConfig.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/MainSceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Modules/Main/MainScene.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Data/AppConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Data/App Config.asset" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller - Copy.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainUiInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainLogicInstaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainInstaller.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wY5CZW7uAP9ueqWqCBppcBIbDh" />
@@ -37,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller.cs" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -69,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628622554447</updated>
       <workItem from="1628622557109" duration="462000" />
-      <workItem from="1628623038798" duration="1680000" />
+      <workItem from="1628623038798" duration="2514000" />
     </task>
     <servers />
   </component>
