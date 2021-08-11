@@ -8,21 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/ArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/DictionaryExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/EnumerableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/FunctionalExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Data/AppConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/CharExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/StringExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/ComparableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/GraphicExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/System/ByteArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/TextureExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/ObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/RendererExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.evolutex.evolunity@8488d5d35f/Scripts/Runtime/Extensions/Unity/MonoBehaviourExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -35,7 +21,6 @@
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/ProjectInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Application.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/MainSceneInstaller.cs" />
-      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Modules/Main/MainScene.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Data/App Config.asset" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller - Copy.cs" />
@@ -46,7 +31,9 @@
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Core/Extensions.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Core/Extensions/TextureExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Core/Extensions/StringExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Modules/Main/MainScene.cs" />
       <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Core/Extensions/EnumerableExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/AppAssets/Scripts/Core/UnparentOnAwake.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wY5CZW7uAP9ueqWqCBppcBIbDh" />
@@ -61,7 +48,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/AppAssets/Scripts/App/Installers/Main/MainSceneInstaller.cs" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -94,9 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1628622554447</updated>
       <workItem from="1628622557109" duration="462000" />
-      <workItem from="1628623038798" duration="3868000" />
+      <workItem from="1628623038798" duration="4463000" />
+      <workItem from="1628676470693" duration="2910000" />
+      <workItem from="1628688641051" duration="1716000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
