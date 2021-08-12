@@ -1,5 +1,6 @@
 using UnityEngine;
 using Zenject;
+using AppName.Core.Extensions;
 
 namespace AppName.App.Installers.Main
 {
@@ -10,8 +11,7 @@ namespace AppName.App.Installers.Main
 
         public override void InstallBindings()
         {
-            Container.BindInstances(
-                _mainCamera);
+            Container.DIBindFromInstance<Camera>(_mainCamera);
         }
     }
 }
