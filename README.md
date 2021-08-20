@@ -8,13 +8,13 @@ Project description, purposes, etc.
 - **Platforms:**
   - Android
   - iOS
-  - ...
 
 ## Packages
 
 - [Zenject](https://github.com/modesttree/Zenject) - for dependency management
 - [TextMesh Pro](https://docs.unity3d.com/Manual/com.unity.textmeshpro.html) - for text components (instead of `UnityEngine.UI.Text`)
 - [Evolunity](https://github.com/Bodix/Evolunity) - for speed up development (extensions and utilities)
+- [Lunar Console](https://github.com/SpaceMadness/lunar-unity-console) - for console on mobile devices
 
 ## Possible packages (not installed)
 
@@ -38,11 +38,40 @@ Packages that can be installed into the project to solve common problems.
 - [YouTube Data API v3](https://developers.google.com/api-client-library/dotnet/apis/youtube/v3?hl=ru) - for retrieving data from YouTube
 - [UniTask](https://github.com/Cysharp/UniTask) - for async operations
 - [NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) - for using NuGet packages
-- [Lunar Console](https://github.com/SpaceMadness/lunar-unity-console) - for console on mobile devices
+
+## References
+
+- [Google Drive](https://drive.google.com/drive/)
+- [Jira](https://itcraft.atlassian.net/)
 
 ## Using
 
 1. Clone the repository.
-2. Remove `.git` folder.
-3. Update `README.md`.
-4. Change the `Root namespace` in the `Project Settings -> Editor` to project name.
+2. Update `README.md`.
+   - Update name.
+   - Update description.
+   - Update Unity version (if needed).
+   - Update platforms (if needed)
+   - Update packages list.
+   - Remove possible packages list.
+   - Update references.
+3. Update `Project Settings` in Unity.
+   - `Player` tab:
+     - Update `Company Name` (if needed).
+     - Update `Product Name`.
+     - Update `Package Name` (all lowercase).
+   - `Editor` tab:
+     - Change `Root namespace`.
+4. Update namespace in the scripts (according to `Root namespace`).
+5. Recreate git repository.
+   - Remove `.git` folder (may be invisible).
+   - Initialize new repository.
+     - `git init`
+   - Add a new remote.
+     - `git remote add origin <URL>`
+   - Create and checkout `develop` branch.
+     - `git checkout -b develop`
+   - Create a new commit.
+     - `git commit -m "Add project files"`
+   - Push the project to remote.
+     - `git push --set-upstream`
