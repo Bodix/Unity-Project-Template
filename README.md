@@ -46,32 +46,35 @@ Packages that can be installed into the project to solve common problems.
 
 ## Using
 
-1. Clone the repository.
-2. Update `README.md`.
+1. Clone repository.
+2. Rename project folder.
+3. Update `README.md`.
    - Update name.
    - Update description.
    - Update Unity version (if needed).
    - Update platforms (if needed)
-   - Update packages list.
-   - Remove possible packages list.
+   - Update packages.
+   - Remove `Possible packages` section.
    - Update references.
-3. Update `Project Settings` in Unity.
+   - Remove `Using` section.
+4. Update `Project Settings` in Unity.
    - `Player` tab:
      - Update `Company Name` (if needed).
      - Update `Product Name`.
-     - Update `Package Name` (all lowercase).
+     - Update `Package Name` (lowercase).
+       - `com.companyname.productname`
    - `Editor` tab:
-     - Change `Root namespace`.
-4. Update namespace in the scripts (according to `Root namespace`).
-5. Recreate git repository.
+     - Update `Root namespace`.
+5. Update namespace in the scripts (according to the `Root namespace`).
+6. Recreate git repository.
    - Remove `.git` folder (may be invisible).
    - Initialize new repository.
      - `git init`
-   - Add a new remote.
+   - Add new remote.
      - `git remote add origin <URL>`
    - Create and checkout `develop` branch.
      - `git checkout -b develop`
-   - Create a new commit.
+   - Create new commit.
      - `git commit -m "Add project files"`
-   - Push the project to remote.
-     - `git push --set-upstream`
+   - Push branch to remote.
+     - `git push --set-upstream origin develop`
