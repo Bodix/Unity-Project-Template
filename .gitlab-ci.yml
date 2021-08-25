@@ -215,7 +215,8 @@ pages:
   image: alpine:latest
   stage: deploy
   script:
-    - cd "$UNITY_DIR/Builds/Android/${BUILD_NAME}"
+    - cd "$UNITY_DIR/Builds/"
+    - cd "$UNITY_DIR/Builds/Android"
     - ls
     - mv "$UNITY_DIR/Builds/Android/${BUILD_NAME}" public
   artifacts:
