@@ -7,7 +7,7 @@ if [[ -z "${UNITY_USERNAME}" ]] || [[ -z "${UNITY_PASSWORD}" ]]; then
   exit 1
 fi
 
-sudo apt-get install xvfb -y
+echo '' | sudo -S apt-get install xvfb -y
 xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
   unity-editor \
     -logFile /dev/stdout \
