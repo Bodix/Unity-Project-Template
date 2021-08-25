@@ -8,3 +8,4 @@
 [Aa]ssets/Plugins/**/*.meta
 !Packages/
 !ProjectSettings/
+!ci/
