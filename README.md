@@ -41,8 +41,8 @@ Packages that can be installed into the project to solve common problems.
 
 ## References
 
-- [Google Drive](https://drive.google.com/drive/)
-- [Jira](https://itcraft.atlassian.net/)
+- [Google Drive](https://drive.google.com)
+- [Jira](https://www.atlassian.com/ru/software/jira)
 
 ## Using
 
@@ -54,27 +54,30 @@ Packages that can be installed into the project to solve common problems.
    - Update Unity version (if needed).
    - Update platforms (if needed)
    - Update packages.
-   - Remove `Possible packages` section.
+   - Remove **Possible packages** section.
    - Update references.
-   - Remove `Using` section.
-4. Update `Project Settings` in Unity.
-   - `Player` tab:
-     - Update `Company Name` (if needed).
-     - Update `Product Name`.
-     - Update `Package Name` (lowercase).
+   - Remove **Using** section.
+4. Update **Project Settings** in Unity.
+   - **Player** tab:
+     - Update **Company Name** (if needed).
+     - Update **Product Name**.
+     - Update **Package Name** (lowercase).
        - `com.companyname.productname`
-   - `Editor` tab:
-     - Update `Root namespace`.
-5. Update namespace in the scripts (according to the `Root namespace`).
+   - **Editor** tab:
+     - Update **Root namespace**.
+5. Update namespace in the scripts (according to the **Root namespace**).
 6. Recreate git repository.
    - Remove `.git` folder (may be invisible).
    - Initialize new repository.
      - `git init`
    - Add new remote.
      - `git remote add origin <URL>`
+   - Create new commit.
+     - `git add -A`
+     - `git commit -m "Add project files"`
+   - Push **master** branch to remote.
+     - `git push --set-upstream origin master`
    - Create and checkout `develop` branch.
      - `git checkout -b develop`
-   - Create new commit.
-     - `git commit -m "Add project files"`
-   - Push branch to remote.
-     - `git push --set-upstream origin develop` 
+   - Push **develop** branch to remote.
+     - `git push --set-upstream origin develop`
