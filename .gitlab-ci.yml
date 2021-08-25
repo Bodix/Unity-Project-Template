@@ -38,7 +38,7 @@ get-activation-file:
       when: manual
   stage: build_and_test
   script:
-    - sudo apt-get install xvfb
+    - sudo apt-get install xvfb -y
     - chmod +x ./ci/get_activation_file.sh && ./ci/get_activation_file.sh
   artifacts:
     paths:
