@@ -77,4 +77,4 @@ Packages that can be installed into the project to solve common problems.
    - Create new commit.
      - `git commit -m "Add project files"`
    - Push branch to remote.
-     - `git push --set-upstream origin develop`
+     - `git push --set-upstream origin develop` 
