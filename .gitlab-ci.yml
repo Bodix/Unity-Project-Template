@@ -9,7 +9,7 @@ variables:
   UNITY_ACTIVATION_FILE: ./unity3d.alf
   UNITY_VERSION: "2020.3.15f1"
   IMAGE: unityci/editor # https://hub.docker.com/r/unityci/editor
-  IMAGE_VERSION: "0.15" # https://github.com/game-ci/docker/releases
+  IMAGE_VERSION: "0.12" # https://github.com/game-ci/docker/releases
   UNITY_DIR: $CI_PROJECT_DIR # this needs to be an absolute path. Defaults to the root of your tree.
 
 
@@ -30,12 +30,6 @@ image: $IMAGE:$UNITY_VERSION-base-$IMAGE_VERSION
     - if: '$UNITY_LICENSE != null'
       when: always
 
-.unity_defaults: &unity_defaults
-  <<:
-    - *unity_before_script
-    - *cache
-    - *license
-
 # run this job when you need to request a license
 # you may need to follow activation steps from documentation
 get-activation-file:
@@ -52,7 +46,9 @@ get-activation-file:
 
 .test: &test
   stage: build_and_test
-  <<: *unity_defaults
+  <<: *unity_before_script
+  <<: *cache
+  <<: *license
   script:
     - chmod +x ./ci/test.sh && ./ci/test.sh
   artifacts:
@@ -81,10 +77,12 @@ test-editmode:
 
 # .test-with-junit-reports: &test-with-junit-reports
 #   stage: build_and_test
-#   <<: *unity_defaults
+#   <<: *unity_before_script
+#   <<: *cache
+#   <<: *license
 #   script:
 #     # This could be made faster by adding these packages to base image or running in a separate job (and step)
-#     # We could use an image with these two depencencies only and only do the saxonb-xslt command on
+#     # We could use an image with these two depencencies only and only do the saxonb-xslt command on 
 #     # previous job's artifacts
 #     - apt-get update && apt-get install -y default-jre libsaxonb-java
 #     - chmod +x ./ci/test.sh && ./ci/test.sh
@@ -114,7 +112,9 @@ test-editmode:
 
 .build: &build
   stage: build_and_test
-  <<: *unity_defaults
+  <<: *unity_before_script
+  <<: *cache
+  <<: *license
   script:
     - chmod +x ./ci/build.sh && ./ci/build.sh
   artifacts:
@@ -215,13 +215,7 @@ pages:
   image: alpine:latest
   stage: deploy
   script:
-    - cd "$UNITY_DIR"
-    - ls
-    - cd "$UNITY_DIR/Builds/"
-    - ls
-    - cd "$UNITY_DIR/Builds/Android"
-    - ls
-    - mv "$UNITY_DIR/Builds/Android/${BUILD_NAME}" public
+    - mv "$UNITY_DIR/Builds/WebGL/${BUILD_NAME}" public
   artifacts:
     paths:
       - public
