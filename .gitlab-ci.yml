@@ -216,7 +216,9 @@ pages:
   stage: deploy
   script:
     - cd "$UNITY_DIR"
+    - ls
     - cd "$UNITY_DIR/Builds/"
+    - ls
     - cd "$UNITY_DIR/Builds/Android"
     - ls
     - mv "$UNITY_DIR/Builds/Android/${BUILD_NAME}" public
