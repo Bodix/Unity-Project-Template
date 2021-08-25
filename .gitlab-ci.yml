@@ -38,7 +38,7 @@ get-activation-file:
       when: manual
   stage: build_and_test
   script:
-    - sudo yum install xorg-x11-server-Xvfb
+    - yum install xorg-x11-server-Xvfb
     - chmod +x ./ci/get_activation_file.sh && ./ci/get_activation_file.sh
   artifacts:
     paths:
