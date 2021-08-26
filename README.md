@@ -48,7 +48,7 @@ Packages that can be installed into the project to solve common problems.
 
 1. Clone repository.
 2. Rename project folder.
-3. Update `README.md`.
+3. Update **README&#46;md**.
    - Update name.
    - Update description.
    - Update Unity version (if needed).
@@ -67,7 +67,7 @@ Packages that can be installed into the project to solve common problems.
      - Update **Root namespace**.
 5. Update namespace in the scripts (according to the **Root namespace**).
 6. Recreate git repository.
-   - Remove `.git` folder (may be invisible).
+   - Remove **.git** folder (may be invisible).
    - Initialize new repository.
      - `git init`
    - Add new remote.
@@ -77,7 +77,7 @@ Packages that can be installed into the project to solve common problems.
      - `git commit -m "Add project files"`
    - Push **master** branch to remote.
      - `git push --set-upstream origin master`
-   - Create and checkout `develop` branch.
+   - Create and checkout **develop** branch.
      - `git checkout -b develop`
    - Push **develop** branch to remote.
      - `git push --set-upstream origin develop`
